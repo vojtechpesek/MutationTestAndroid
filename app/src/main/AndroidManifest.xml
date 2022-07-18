@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".error.ErrorActivity"></activity>
-        <activity android:name=".counter.MainActivity">
+        <activity android:name=".counter.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
